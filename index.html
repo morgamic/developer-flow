@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
         <title>Mozilla Apps Ecosystem - Developer Flow</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/main.css" rel="stylesheet" media="screen">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
         <link rel="shortcut icon" href="img/aurora_fav.ico">
     </head>
     <body>
@@ -12,19 +15,29 @@
                 <img src="img/flow.png">
             </div>
             <div class="row">
-                <div class="span2">
+                <div class="span2 quiet">
                     <h2>About</h2>
-                    <p>This is a summary of the developer flow for an open web app developer.  The goal of this page is to track Mozilla's efforts to make it all better.</p>
+                    <ul>
+                        <li>Summary of the flow for building an open web app.</li>
+                        <li>Way to track Mozilla's efforts to make it all better.</li>
+                    </ul>
                 </div>
                 <div class="span2">
                     <h2>Plan</h2>
                     
                     <h4>Why Try?</h4>
                     <ul>
-                        <li>Landing page, dev proposition</li>
+                        <li><a class="done" href="https://marketplace.firefox.com/developers/">Front page, developer proposition</a></li>
                     </ul>
 
-                    <h4>Quick start &amp; SDK</h4>
+                    <h4>Quick Start</h4>
+                    <ul>
+                        <li><a class="started" href="https://bugzilla.mozilla.org/show_bug.cgi?id=809640">Landing pages by subject</a></li>
+                        <li>Landing page for web developers</li>
+                        <li>Landing page for mobile app (native) developers</li>
+                    </ul>
+
+                    <h4>SDK</h4>
                     <ul>
                         <li>Firefox OS Simulator</li>
                         <li>Firefox Developer Tools</li>
@@ -45,12 +58,12 @@
                     <h2>Develop</h2>
                     <h4>Reference</h4>
                     <ul>
-                        <li>Pocket reference (manifests, etc.)</li>
-                        <li>API index</li>
+                        <li>Apps pocket reference</li>
+                        <li>Device API index</li>
+                        <li>Web API index</li>
                         <li>Device compatibility tool</li>
-                        <li>MDN documentation</li>
                         <li>Rich examples, videos and tutorials</li>
-                        <li>Stack overflow, newsgroups, IRC</li>
+                        <li>Developer forums, newsgroups, IRC</li>
                     </ul>
 
                     <h4>Testing</h4>
@@ -112,5 +125,6 @@
         </div>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
