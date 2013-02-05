@@ -1,1 +1,6 @@
 .hero-unit { margin-top: 20px; }
+div.quiet h2, div.quiet p, div.quiet ul { color: #888; }
+.done { color: green; }
+.started { color: orange; }
+.fire { color: red;}
+div.span2 h2 { color: #888; }
