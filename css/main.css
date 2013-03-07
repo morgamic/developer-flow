@@ -1,7 +1,7 @@
-.hero-unit { margin-top: 20px; background-color: #eee; border: 1px solid #600; }
+.hero-unit { margin-top: 20px; background-color: #fff; border: 1px solid #600; }
 .done { color: green; }
 .started { color: orange; }
 .fire { color: red;}
 div.span2 h2 { color: #600; }
-div.span2 h3 { color: #666; }
+div.span2 h3 { color: #333; }
 body { background: url(../img/bg.png) repeat }
